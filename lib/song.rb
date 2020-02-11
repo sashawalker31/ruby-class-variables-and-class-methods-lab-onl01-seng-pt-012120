@@ -4,7 +4,7 @@ class Song
   @@count = 0 
   
   def initialize 
-    @@count =+ 1 
+    @@count += 1 
   end 
   
   Song.count
@@ -25,5 +25,6 @@ class Artist
     @@artist = []
   end 
   
-  
+  def initialize
+    @@artist +=1
 end 
