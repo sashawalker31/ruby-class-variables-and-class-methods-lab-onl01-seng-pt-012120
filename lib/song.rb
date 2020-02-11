@@ -27,4 +27,20 @@ class Artist
   
   def initialize
     @@artist +=1
+  end 
+end 
+
+class Genre_count
+  Song.artist_count
+  Song.genre_count 
+end 
+    
+    
+    
+    
+    
+    
+    
+    
+    
 end 
