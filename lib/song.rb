@@ -6,7 +6,6 @@ class Song
     @@count += 1 
   end 
   
-  Song.count
     
 end 
 
