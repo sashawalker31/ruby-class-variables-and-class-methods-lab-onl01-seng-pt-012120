@@ -10,3 +10,20 @@ class Song
   Song.count
     
 end 
+
+class Genre 
+  def genre 
+    @@genres = []
+  end 
+  
+  def initialize
+    @@genres 
+end 
+
+class Artist 
+  def artist
+    @@artist = []
+  end 
+  
+  
+end 
